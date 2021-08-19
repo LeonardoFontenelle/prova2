@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#left
+{
+    width: 50%;
+    height: 100vh;
+    background: #3366ff;
+}
+#right  
+{
+    width: 50%;
+    height: 100vh;
+    background:   #ff1aff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navbar
+{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    background: #3366ff;
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+    background:#3366ff; 
+}
+#img
+{
+    width: 400px;
+    position: absolute;
+    top: 40%;
+    right: 35%;
+}
+#nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+#nav #menu1
+{
+    width: 100%;
+    height: 100%;
+}
+#nav #menu1 ul
+{
+    list-style: none;
+    width: 125%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 25%;
+}
+#nav #menu1 ul li{
+    line-height: 80px;
+    text-transform: uppercase;
+}
+#nav #menu2
+{
+    width: 30%;
+    height: 100%;
+
+}
+#nav #menu2 ul{
+    width: 120%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40%;
+    padding-right: 25%;
+}
+#nav #menu2 ul li{
+    line-height: 80px;
+}
+#content
+{
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    width: 30%;
+}
+#content h1
+{
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+#content p
+{
+    letter-spacing: 2px;
+}
+#content button
+{
+    margin-top: 25px;
+    width: 180px;
+    height: 30px;
+    border: 0;
+    background: #ff1aff;
+}
